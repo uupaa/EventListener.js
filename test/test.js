@@ -19,14 +19,14 @@ function testEventListener(next) {
     var event = new EventListener();
 
     event.types(["a", "b", "c"]);
-    event.add("a", function() { console.log("a"); });
-    event.add("a", function() { console.log("a"); });
-    event.add("b", function() { console.log("b"); });
+    event.add(null, "a", function() { console.log("a"); });
+    event.add(null, "a", function() { console.log("a"); });
+    event.add(null, "b", function() { console.log("b"); });
 
     var aEvents = event.get("a").length === 2;
     var bEvents = event.get("b").length === 1;
 
-    event.clear();
+    event.clear(null);
 
     var aEvents2 = event.get("a").length === 0;
     var bEvents2 = event.get("b").length === 0;

@@ -1,18 +1,17 @@
-new Test().add([
-        testEventListener,
-    ]).run(function(err, test) {
-        if (1) {
-            err || test.worker(function(err, test) {
-                if (!err && typeof EventListener_ !== "undefined") {
-                    var name = Test.swap(EventListener, EventListener_);
+var ModuleTest = (function(global) {
 
-                    new Test(test).run(function(err, test) {
-                        Test.undo(name);
-                    });
-                }
-            });
-        }
-    });
+return new Test({
+        disable:    false,
+        node:       true,
+        browser:    true,
+        worker:     true,
+        button:     true,
+        both:       true,
+        primary:    global["EventListener"],
+        secondary:  global["EventListener_"],
+    }).add([
+        testEventListener,
+    ]).run().clone();
 
 function testEventListener(next) {
 
@@ -39,4 +38,6 @@ function testEventListener(next) {
         next && next.miss();
     }
 }
+
+})((this || 0).self || global);
 

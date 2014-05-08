@@ -8,9 +8,9 @@ EventListener Class
 
 # Document
 
-- [WebModule](https://github.com/uupaa/WebModule) ([Slide](http://uupaa.github.io/Slide/slide/WebModule/index.html))
-- [Development](https://github.com/uupaa/WebModule/wiki/Development)
 - [EventListener.js wiki](https://github.com/uupaa/EventListener.js/wiki/EventListener)
+- [Development](https://github.com/uupaa/WebModule/wiki/Development)
+- [WebModule](https://github.com/uupaa/WebModule) ([Slide](http://uupaa.github.io/Slide/slide/WebModule/index.html))
 
 # How to use
 

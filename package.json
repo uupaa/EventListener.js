@@ -1,6 +1,6 @@
 {
   "name":           "uupaa.eventlistener.js",
-  "version":        "0.8.7",
+  "version":        "0.8.8",
   "description":    "EventListener Class.",
   "url":            "https://github.com/uupaa/EventListener.js",
   "keywords":       ["Event", "util", "uupaa", "WebModule"],

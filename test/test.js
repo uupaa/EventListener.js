@@ -1,14 +1,12 @@
-var ModuleTest = (function(global) {
+var ModuleTestEventListener = (function(global) {
 
-return new Test({
+return new Test("EventListener", {
         disable:    false,
-        node:       true,
         browser:    true,
         worker:     true,
+        node:       true,
         button:     true,
         both:       true,
-        primary:    global["EventListener"],
-        secondary:  global["EventListener_"],
     }).add([
         testEventListener,
     ]).run().clone();
@@ -31,10 +29,8 @@ function testEventListener(next) {
     var bEvents2 = event.get("b").length === 0;
 
     if (aEvents && bEvents && aEvents2 && bEvents2) {
-        console.log("testEventListener ok");
         next && next.pass();
     } else {
-        console.error("testEventListener ng");
         next && next.miss();
     }
 }

@@ -1,6 +1,6 @@
 {
   "name":           "uupaa.eventlistener.js",
-  "version":        "0.8.8",
+  "version":        "0.8.9",
   "description":    "EventListener Class.",
   "url":            "https://github.com/uupaa/EventListener.js",
   "keywords":       ["Event", "util", "uupaa", "WebModule"],
@@ -23,6 +23,7 @@
     "files":        ["lib/EventListener.js"],
     "output":       "release/EventListener.min.js",
     "target":       ["all"],
+    "labels":       ["@dev"],
     "module": {
       "develop":    ["uupaa.valid.js"],
       "release":    []
@@ -32,6 +33,7 @@
   },
   "devDependencies": {
     "uupaa.nodemodule.js": "",
+    "uupaa.reflection.js": "",
     "uupaa.console.js": "",
     "uupaa.valid.js":   "",
     "uupaa.help.js":    "",

@@ -8,56 +8,56 @@
         "link": "files/lib_EventListener_js/index.html"
       },
       "jshint": {
-        "messages": 0
+        "messages": 7
       },
       "complexity": {
         "aggregate": {
-          "line": 5,
+          "line": 1,
           "complexity": {
             "sloc": {
-              "physical": 161,
-              "logical": 77
+              "physical": 144,
+              "logical": 69
             },
-            "cyclomatic": 18,
+            "cyclomatic": 17,
             "halstead": {
               "operators": {
-                "distinct": 22,
-                "total": 181,
+                "distinct": 23,
+                "total": 161,
                 "identifiers": [
                   "__stripped__"
                 ]
               },
               "operands": {
-                "distinct": 72,
-                "total": 233,
+                "distinct": 59,
+                "total": 225,
                 "identifiers": [
                   "__stripped__"
                 ]
               },
-              "length": 414,
-              "vocabulary": 94,
-              "difficulty": 35.59722222222222,
-              "volume": 2713.599784594542,
-              "effort": 96596.61455438627,
-              "bugs": 0.904533261531514,
-              "time": 5366.478586354792
+              "length": 386,
+              "vocabulary": 82,
+              "difficulty": 43.855932203389834,
+              "volume": 2454.0150737825807,
+              "effort": 107623.11870190557,
+              "bugs": 0.8180050245941936,
+              "time": 5979.062150105865
             },
-            "params": 14
+            "params": 12
           }
         },
         "module": "lib/EventListener.js",
-        "maintainability": 65.94889207061733
+        "maintainability": 65.94394611755091
       }
     }
   ],
   "summary": {
     "total": {
-      "sloc": 161,
-      "maintainability": 65.94889207061733
+      "sloc": 144,
+      "maintainability": 65.94394611755091
     },
     "average": {
-      "sloc": 161,
-      "maintainability": "65.95"
+      "sloc": 144,
+      "maintainability": "65.94"
     }
   }
 }
